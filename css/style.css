@@ -1,0 +1,89 @@
+body {
+	font-family: Arial, Helvetica, Gotham;
+	background-color: #23A0FF;
+	margin-top: 64px;
+	margin-bottom: 64px;
+	margin-left: 256px;
+	margin-right: 256px;
+}
+
+div {
+	
+}
+
+form {
+	background-color: #FFFFFF;
+	margin: 0px 0px 4px 16px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, Gotham;
+	font-size: 14pt;
+	font-weight: bold;
+	margin: 4px;
+
+}
+
+.label {
+	margin: 0px 0px 4px 16px;
+}
+
+.textinput {
+	margin: 0px 0px 4px 16px;	
+}
+
+.dropdown {
+	margin: 0px 0px 4px 16px;	
+}
+
+#firstName {
+
+}
+
+#lastName {
+
+}
+
+#middleInitial {
+
+}
+
+#email {
+
+}
+
+#password {
+	
+}
+
+#productType {
+
+}
+
+#returnReason {
+	
+}
+
+#address {
+
+}
+
+#apartment {
+
+}
+
+#city {
+	
+}
+
+#state {
+
+}
+
+#zip {
+
+}
+
+#phone {
+
+}

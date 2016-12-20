@@ -1,0 +1,109 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Return Form</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>        
+</head>
+
+<body>
+	<div>
+    	<form name="returnForm" onsubmit="validate()">
+        	<br>
+        	<h1>Account:</h1>
+            <br>
+        	<input class="textinput" id="firstName" name="fname" placeholder="First Name" size="16" maxlength="24" type="text">
+          	<input class="textinput" id="middleInitial" name="mi" placeholder="MI" size="2" maxlength="1" type="text">
+       	  	<input class="textinput" id="lastName" name="lname" placeholder="Last Name" size="16" maxlength="24" type="text">
+            <br>
+          	<input class="textinput" id="email" name="email" placeholder="E-Mail Address" size="32" maxlength="48" type="email">
+            <br>
+            <input class="textinput" id="password" name="password" placeholder="Password" size="8" maxlength="8" type="password">
+            <br><br>
+            <h1>Return Information:</h1>
+            <br>
+            <p class="label">Product Type:</p>
+            <select class="dropdown" id="productType" name="product">
+            	<option value="none"></option>
+            	<option value="book">Book</option>
+                <option value="cd">CD</option>
+				<option value="dvd">DVD</option>
+            </select>
+            <br><br>
+            <p class="label">Reason for Return:</p><br>
+            <textarea class="textinput" id="returnReason" name="reason" rows="8" cols="32"></textarea>
+            <br><br>
+            <h1>Shipping:</h1>
+            <br>
+            <input class="textinput" id="address" name="street" placeholder="Street Address" size="32" maxlength="48" type="text">
+            <br>
+            <input class="textinput" id="apartment" name="appt" placeholder="Apartment" size="8" maxlength="8" type="text">
+            <input class="textinput" id="city" name="city" placeholder="City" size="16" maxlength="32" type="text">
+            <p class="label">State:</p>
+            <select class="dropdown" id="state">
+            	<option value="none"></option>
+				<option value="AL">AL</option>
+				<option value="AK">AK</option>
+				<option value="AZ">AZ</option>
+				<option value="AR">AR</option>
+				<option value="CA">CA</option>
+				<option value="CO">CO</option>
+				<option value="CT">CT</option>
+				<option value="DE">DE</option>
+				<option value="DC">DC</option>
+				<option value="FL">FL</option>
+				<option value="GA">GA</option>
+				<option value="HI">HI</option>
+				<option value="ID">ID</option>
+				<option value="IL">IL</option>
+				<option value="IN">IN</option>
+				<option value="IA">IA</option>
+				<option value="KS">KS</option>
+				<option value="KY">KY</option>
+				<option value="LA">LA</option>
+				<option value="ME">ME</option>
+				<option value="MD">MD</option>
+				<option value="MA">MA</option>
+				<option value="MI">MI</option>
+				<option value="MN">MN</option>
+				<option value="MS">MS</option>
+				<option value="MO">MO</option>
+				<option value="MT">MT</option>
+				<option value="NE">NE</option>
+				<option value="NV">NV</option>
+				<option value="NH">NH</option>
+				<option value="NJ">NJ</option>
+				<option value="NM">NM</option>
+				<option value="NY">NY</option>
+				<option value="NC">NC</option>
+				<option value="ND">ND</option>
+				<option value="OH">OH</option>
+				<option value="OK">OK</option>
+				<option value="OR">OR</option>
+				<option value="PA">PA</option>
+				<option value="RI">RI</option>
+				<option value="SC">SC</option>
+				<option value="SD">SD</option>
+				<option value="TN">TN</option>
+				<option value="TX">TX</option>
+				<option value="UT">UT</option>
+				<option value="VT">VT</option>
+				<option value="VA">VA</option>
+				<option value="WA">WA</option>
+				<option value="WV">WV</option>
+				<option value="WI">WI</option>
+				<option value="WY">WY</option>
+			</select>
+            <br>
+            <input class="textinput" id="zip" name="zip" placeholder="ZIP" size="4" maxlength="5" type="text">
+            <p class="label">Phone:</p>
+            <input class="textinput" id="phone" name="phone" placeholder="X-XXX-XXX-XXXX" size="16" type="tel">
+            <br><br>
+            <input class="textinput" value="Submit" type="submit">
+            <br><br>
+		</form>
+    </div>
+</body>
+
+</html>
